@@ -896,6 +896,98 @@ export default function SubmitForm() {
               </Typography>
             </Box>
           </Box>
+          <Box>
+            <Typography sx={{ fontWeight: "bolder" }} mb={1}>
+              PERLENGKAPAN
+            </Typography>
+            <Box mt={1} mb={4}>
+              <Typography>
+                API Gravity :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+
+              <Typography>
+                Jumlah Helmet :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Jas Hujan :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Baji (Roda) :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Kotak P3K :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Dongkrak :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Kunci Roda :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Traficone :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Pengikat Tidak Standart :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                TIdak ada pengikat diri :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Ijk BOUT :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Segel :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Katangan T2 :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Man Hole :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Kebocoran Packing :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Fungsi Engser Pengunci :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Las TDK :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Selang Vapour Valva :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Kabel Sensor :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Bounding :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+              <Typography>
+                Segel Nominal :
+                <Box component="span">&nbsp; Baik &nbsp;</Box>
+              </Typography>
+            </Box>
+          </Box>
         </Grid>
       </Grid>
 
