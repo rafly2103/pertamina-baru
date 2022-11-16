@@ -39,7 +39,7 @@ const DUMMY_LIST_DRIVER = [
     id: 1,
     name: "Syams Syair R",
     jenisKelamin: "Laki-laki",
-    email: "thesyams.rebel8@gmail.com",
+    email: "thesyams@gmail.com",
     phone: "082523952352",
     image: "https://i.pravatar.cc/150?img=57",
     status: true,

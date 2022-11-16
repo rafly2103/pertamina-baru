@@ -18,7 +18,8 @@ export default function CardPerusahaan({ name, contract, phone,email,image, stat
           <Typography
             sx={{ fontSize: 10, fontWeight: "bolder" }}
             color="text.secondary"
-            mb={1}
+            mb={2}
+            alignItems={`center`}
           >
             PERUSAHAAN
           </Typography>

@@ -104,38 +104,40 @@ export default function SisiKananDepan() {
             <FormControlLabel value="Tidak" control={<Radio />} label="Tidak" />
           </RadioGroup>
         </FormControl>
-        </Box>
-        <Grid   container
-  direction="row"
-  justifyContent="flex-start"
-  alignItems="center"
-  spacing={2}>
-          <Grid item md={7}>
-        <TextField fullWidth placeholder="Keterangan" />
+      </Box>
+      <Grid
+        container
+        direction="row"
+        justifyContent="flex-start"
+        alignItems="center"
+        spacing={2}
+      >
+        <Grid item md={7}>
+          <TextField fullWidth placeholder="Keterangan" />
         </Grid>
         <Grid item md={4}>
-        <Button variant="contained" onClick={handleClickOpen}>
+          <Button variant="contained" onClick={handleClickOpen}>
             <CameraAltIcon />
           </Button>
-          </Grid>
-          </Grid>
-        <Box flexDirection={`column`} mb={2}>
-          <BootstrapDialog
+        </Grid>
+      </Grid>
+      <Box>
+        <BootstrapDialog
+          onClose={handleClose}
+          aria-labelledby="customized-dialog-title"
+          open={open}
+        >
+          <BootstrapDialogTitle
+            id="customized-dialog-title"
             onClose={handleClose}
-            aria-labelledby="customized-dialog-title"
-            open={open}
           >
-            <BootstrapDialogTitle
-              id="customized-dialog-title"
-              onClose={handleClose}
-            >
-              Kamera
-            </BootstrapDialogTitle>
-            <DialogContent dividers>
-              <Kamera />
-            </DialogContent>
-          </BootstrapDialog>
-        </Box>
+            Kamera
+          </BootstrapDialogTitle>
+          <DialogContent dividers>
+            <Kamera />
+          </DialogContent>
+        </BootstrapDialog>
+      </Box>
       <Box mt={4} display={`flex`} flexDirection={`column`}>
         <FormControl>
           <FormLabel id="demo-row-radio-buttons-group-label" mt={2}>
@@ -151,37 +153,39 @@ export default function SisiKananDepan() {
           </RadioGroup>
         </FormControl>
       </Box>
-      <Grid   container
-  direction="row"
-  justifyContent="flex-start"
-  alignItems="center"
-  spacing={2}>
-          <Grid item md={7}>
-        <TextField fullWidth placeholder="Keterangan" />
+      <Grid
+        container
+        direction="row"
+        justifyContent="flex-start"
+        alignItems="center"
+        spacing={2}
+      >
+        <Grid item md={7}>
+          <TextField fullWidth placeholder="Keterangan" />
         </Grid>
         <Grid item md={4}>
-        <Button variant="contained" onClick={handleClickOpen}>
+          <Button variant="contained" onClick={handleClickOpen}>
             <CameraAltIcon />
           </Button>
-          </Grid>
-          </Grid>
-        <Box flexDirection={`column`} mb={2}>
-          <BootstrapDialog
+        </Grid>
+      </Grid>
+      <Box flexDirection={`column`} mb={2}>
+        <BootstrapDialog
+          onClose={handleClose}
+          aria-labelledby="customized-dialog-title"
+          open={open}
+        >
+          <BootstrapDialogTitle
+            id="customized-dialog-title"
             onClose={handleClose}
-            aria-labelledby="customized-dialog-title"
-            open={open}
           >
-            <BootstrapDialogTitle
-              id="customized-dialog-title"
-              onClose={handleClose}
-            >
-              Kamera
-            </BootstrapDialogTitle>
-            <DialogContent dividers>
-              <Kamera />
-            </DialogContent>
-          </BootstrapDialog>
-        </Box>
+            Kamera
+          </BootstrapDialogTitle>
+          <DialogContent dividers>
+            <Kamera />
+          </DialogContent>
+        </BootstrapDialog>
+      </Box>
       <Box mt={4} display={`flex`} flexDirection={`column`}>
         <FormControl>
           <FormLabel id="demo-row-radio-buttons-group-label" mt={2}>
@@ -197,37 +201,39 @@ export default function SisiKananDepan() {
           </RadioGroup>
         </FormControl>
       </Box>
-      <Grid   container
-  direction="row"
-  justifyContent="flex-start"
-  alignItems="center"
-  spacing={2}>
-          <Grid item md={7}>
-        <TextField fullWidth placeholder="Keterangan" />
+      <Grid
+        container
+        direction="row"
+        justifyContent="flex-start"
+        alignItems="center"
+        spacing={2}
+      >
+        <Grid item md={7}>
+          <TextField fullWidth placeholder="Keterangan" />
         </Grid>
         <Grid item md={4}>
-        <Button variant="contained" onClick={handleClickOpen}>
+          <Button variant="contained" onClick={handleClickOpen}>
             <CameraAltIcon />
           </Button>
-          </Grid>
-          </Grid>
-        <Box flexDirection={`column`} mb={2}>
-          <BootstrapDialog
+        </Grid>
+      </Grid>
+      <Box flexDirection={`column`} mb={2}>
+        <BootstrapDialog
+          onClose={handleClose}
+          aria-labelledby="customized-dialog-title"
+          open={open}
+        >
+          <BootstrapDialogTitle
+            id="customized-dialog-title"
             onClose={handleClose}
-            aria-labelledby="customized-dialog-title"
-            open={open}
           >
-            <BootstrapDialogTitle
-              id="customized-dialog-title"
-              onClose={handleClose}
-            >
-              Kamera
-            </BootstrapDialogTitle>
-            <DialogContent dividers>
-              <Kamera />
-            </DialogContent>
-          </BootstrapDialog>
-        </Box>
+            Kamera
+          </BootstrapDialogTitle>
+          <DialogContent dividers>
+            <Kamera />
+          </DialogContent>
+        </BootstrapDialog>
+      </Box>
       <Box mt={4} display={`flex`} flexDirection={`column`}>
         <FormControl>
           <FormLabel id="demo-row-radio-buttons-group-label" mt={2}>
@@ -243,37 +249,39 @@ export default function SisiKananDepan() {
           </RadioGroup>
         </FormControl>
       </Box>
-      <Grid   container
-  direction="row"
-  justifyContent="flex-start"
-  alignItems="center"
-  spacing={2}>
-          <Grid item md={7}>
-        <TextField fullWidth placeholder="Keterangan" />
+      <Grid
+        container
+        direction="row"
+        justifyContent="flex-start"
+        alignItems="center"
+        spacing={2}
+      >
+        <Grid item md={7}>
+          <TextField fullWidth placeholder="Keterangan" />
         </Grid>
         <Grid item md={4}>
-        <Button variant="contained" onClick={handleClickOpen}>
+          <Button variant="contained" onClick={handleClickOpen}>
             <CameraAltIcon />
           </Button>
-          </Grid>
-          </Grid>
-        <Box flexDirection={`column`} mb={2}>
-          <BootstrapDialog
+        </Grid>
+      </Grid>
+      <Box flexDirection={`column`} mb={2}>
+        <BootstrapDialog
+          onClose={handleClose}
+          aria-labelledby="customized-dialog-title"
+          open={open}
+        >
+          <BootstrapDialogTitle
+            id="customized-dialog-title"
             onClose={handleClose}
-            aria-labelledby="customized-dialog-title"
-            open={open}
           >
-            <BootstrapDialogTitle
-              id="customized-dialog-title"
-              onClose={handleClose}
-            >
-              Kamera
-            </BootstrapDialogTitle>
-            <DialogContent dividers>
-              <Kamera />
-            </DialogContent>
-          </BootstrapDialog>
-        </Box>
+            Kamera
+          </BootstrapDialogTitle>
+          <DialogContent dividers>
+            <Kamera />
+          </DialogContent>
+        </BootstrapDialog>
+      </Box>
       <Box mt={4} display={`flex`} flexDirection={`column`}>
         <FormControl>
           <FormLabel id="demo-row-radio-buttons-group-label" mt={2}>
@@ -289,37 +297,39 @@ export default function SisiKananDepan() {
           </RadioGroup>
         </FormControl>
       </Box>
-      <Grid   container
-  direction="row"
-  justifyContent="flex-start"
-  alignItems="center"
-  spacing={2}>
-          <Grid item md={7}>
-        <TextField fullWidth placeholder="Keterangan" />
+      <Grid
+        container
+        direction="row"
+        justifyContent="flex-start"
+        alignItems="center"
+        spacing={2}
+      >
+        <Grid item md={7}>
+          <TextField fullWidth placeholder="Keterangan" />
         </Grid>
         <Grid item md={4}>
-        <Button variant="contained" onClick={handleClickOpen}>
+          <Button variant="contained" onClick={handleClickOpen}>
             <CameraAltIcon />
           </Button>
-          </Grid>
-          </Grid>
-        <Box flexDirection={`column`} mb={2}>
-          <BootstrapDialog
+        </Grid>
+      </Grid>
+      <Box flexDirection={`column`} mb={2}>
+        <BootstrapDialog
+          onClose={handleClose}
+          aria-labelledby="customized-dialog-title"
+          open={open}
+        >
+          <BootstrapDialogTitle
+            id="customized-dialog-title"
             onClose={handleClose}
-            aria-labelledby="customized-dialog-title"
-            open={open}
           >
-            <BootstrapDialogTitle
-              id="customized-dialog-title"
-              onClose={handleClose}
-            >
-              Kamera
-            </BootstrapDialogTitle>
-            <DialogContent dividers>
-              <Kamera />
-            </DialogContent>
-          </BootstrapDialog>
-        </Box>
+            Kamera
+          </BootstrapDialogTitle>
+          <DialogContent dividers>
+            <Kamera />
+          </DialogContent>
+        </BootstrapDialog>
+      </Box>
       <Box mt={4} display={`flex`} flexDirection={`column`}>
         <FormControl>
           <FormLabel id="demo-row-radio-buttons-group-label" mt={2}>
@@ -335,37 +345,39 @@ export default function SisiKananDepan() {
           </RadioGroup>
         </FormControl>
       </Box>
-      <Grid   container
-  direction="row"
-  justifyContent="flex-start"
-  alignItems="center"
-  spacing={2}>
-          <Grid item md={7}>
-        <TextField fullWidth placeholder="Keterangan" />
+      <Grid
+        container
+        direction="row"
+        justifyContent="flex-start"
+        alignItems="center"
+        spacing={2}
+      >
+        <Grid item md={7}>
+          <TextField fullWidth placeholder="Keterangan" />
         </Grid>
         <Grid item md={4}>
-        <Button variant="contained" onClick={handleClickOpen}>
+          <Button variant="contained" onClick={handleClickOpen}>
             <CameraAltIcon />
           </Button>
-          </Grid>
-          </Grid>
-        <Box flexDirection={`column`} mb={2}>
-          <BootstrapDialog
+        </Grid>
+      </Grid>
+      <Box flexDirection={`column`} mb={2}>
+        <BootstrapDialog
+          onClose={handleClose}
+          aria-labelledby="customized-dialog-title"
+          open={open}
+        >
+          <BootstrapDialogTitle
+            id="customized-dialog-title"
             onClose={handleClose}
-            aria-labelledby="customized-dialog-title"
-            open={open}
           >
-            <BootstrapDialogTitle
-              id="customized-dialog-title"
-              onClose={handleClose}
-            >
-              Kamera
-            </BootstrapDialogTitle>
-            <DialogContent dividers>
-              <Kamera />
-            </DialogContent>
-          </BootstrapDialog>
-        </Box>
+            Kamera
+          </BootstrapDialogTitle>
+          <DialogContent dividers>
+            <Kamera />
+          </DialogContent>
+        </BootstrapDialog>
+      </Box>
       <Box mt={4} display={`flex`} flexDirection={`column`}>
         <FormControl>
           <FormLabel
@@ -386,20 +398,22 @@ export default function SisiKananDepan() {
             <FormControlLabel value="Tidak" control={<Radio />} label="Tidak" />
           </RadioGroup>
         </FormControl>
-        <Grid   container
-  direction="row"
-  justifyContent="flex-start"
-  alignItems="center"
-  spacing={2}>
+        <Grid
+          container
+          direction="row"
+          justifyContent="flex-start"
+          alignItems="center"
+          spacing={2}
+        >
           <Grid item md={7}>
-        <TextField fullWidth placeholder="Keterangan" />
+            <TextField fullWidth placeholder="Keterangan" />
+          </Grid>
+          <Grid item md={4}>
+            <Button variant="contained" onClick={handleClickOpen}>
+              <CameraAltIcon />
+            </Button>
+          </Grid>
         </Grid>
-        <Grid item md={4}>
-        <Button variant="contained" onClick={handleClickOpen}>
-            <CameraAltIcon />
-          </Button>
-          </Grid>
-          </Grid>
         <Box flexDirection={`column`} mb={2}>
           <BootstrapDialog
             onClose={handleClose}
@@ -432,20 +446,22 @@ export default function SisiKananDepan() {
             <FormControlLabel value="Tidak" control={<Radio />} label="Tidak" />
           </RadioGroup>
         </FormControl>
-        <Grid   container
-  direction="row"
-  justifyContent="flex-start"
-  alignItems="center"
-  spacing={2}>
+        <Grid
+          container
+          direction="row"
+          justifyContent="flex-start"
+          alignItems="center"
+          spacing={2}
+        >
           <Grid item md={7}>
-        <TextField fullWidth placeholder="Keterangan" />
+            <TextField fullWidth placeholder="Keterangan" />
+          </Grid>
+          <Grid item md={4}>
+            <Button variant="contained" onClick={handleClickOpen}>
+              <CameraAltIcon />
+            </Button>
+          </Grid>
         </Grid>
-        <Grid item md={4}>
-        <Button variant="contained" onClick={handleClickOpen}>
-            <CameraAltIcon />
-          </Button>
-          </Grid>
-          </Grid>
         <Box flexDirection={`column`} mb={2}>
           <BootstrapDialog
             onClose={handleClose}
@@ -479,37 +495,39 @@ export default function SisiKananDepan() {
           </RadioGroup>
         </FormControl>
       </Box>
-      <Grid   container
-  direction="row"
-  justifyContent="flex-start"
-  alignItems="center"
-  spacing={2}>
-          <Grid item md={7}>
-        <TextField fullWidth placeholder="Keterangan" />
+      <Grid
+        container
+        direction="row"
+        justifyContent="flex-start"
+        alignItems="center"
+        spacing={2}
+      >
+        <Grid item md={7}>
+          <TextField fullWidth placeholder="Keterangan" />
         </Grid>
         <Grid item md={4}>
-        <Button variant="contained" onClick={handleClickOpen}>
+          <Button variant="contained" onClick={handleClickOpen}>
             <CameraAltIcon />
           </Button>
-          </Grid>
-          </Grid>
-        <Box flexDirection={`column`} mb={2}>
-          <BootstrapDialog
+        </Grid>
+      </Grid>
+      <Box flexDirection={`column`} mb={2}>
+        <BootstrapDialog
+          onClose={handleClose}
+          aria-labelledby="customized-dialog-title"
+          open={open}
+        >
+          <BootstrapDialogTitle
+            id="customized-dialog-title"
             onClose={handleClose}
-            aria-labelledby="customized-dialog-title"
-            open={open}
           >
-            <BootstrapDialogTitle
-              id="customized-dialog-title"
-              onClose={handleClose}
-            >
-              Kamera
-            </BootstrapDialogTitle>
-            <DialogContent dividers>
-              <Kamera />
-            </DialogContent>
-          </BootstrapDialog>
-        </Box>
+            Kamera
+          </BootstrapDialogTitle>
+          <DialogContent dividers>
+            <Kamera />
+          </DialogContent>
+        </BootstrapDialog>
+      </Box>
       <Box mt={4} display={`flex`} flexDirection={`column`}>
         <FormControl>
           <FormLabel id="demo-row-radio-buttons-group-label" mt={2}>
@@ -525,37 +543,39 @@ export default function SisiKananDepan() {
           </RadioGroup>
         </FormControl>
       </Box>
-      <Grid   container
-  direction="row"
-  justifyContent="flex-start"
-  alignItems="center"
-  spacing={2}>
-          <Grid item md={7}>
-        <TextField fullWidth placeholder="Keterangan" />
+      <Grid
+        container
+        direction="row"
+        justifyContent="flex-start"
+        alignItems="center"
+        spacing={2}
+      >
+        <Grid item md={7}>
+          <TextField fullWidth placeholder="Keterangan" />
         </Grid>
         <Grid item md={4}>
-        <Button variant="contained" onClick={handleClickOpen}>
+          <Button variant="contained" onClick={handleClickOpen}>
             <CameraAltIcon />
           </Button>
-          </Grid>
-          </Grid>
-        <Box flexDirection={`column`} mb={2}>
-          <BootstrapDialog
+        </Grid>
+      </Grid>
+      <Box flexDirection={`column`} mb={2}>
+        <BootstrapDialog
+          onClose={handleClose}
+          aria-labelledby="customized-dialog-title"
+          open={open}
+        >
+          <BootstrapDialogTitle
+            id="customized-dialog-title"
             onClose={handleClose}
-            aria-labelledby="customized-dialog-title"
-            open={open}
           >
-            <BootstrapDialogTitle
-              id="customized-dialog-title"
-              onClose={handleClose}
-            >
-              Kamera
-            </BootstrapDialogTitle>
-            <DialogContent dividers>
-              <Kamera />
-            </DialogContent>
-          </BootstrapDialog>
-        </Box>
+            Kamera
+          </BootstrapDialogTitle>
+          <DialogContent dividers>
+            <Kamera />
+          </DialogContent>
+        </BootstrapDialog>
+      </Box>
       <Box mt={4} display={`flex`} flexDirection={`column`}>
         <FormControl>
           <FormLabel id="demo-row-radio-buttons-group-label" mt={2}>
@@ -571,37 +591,39 @@ export default function SisiKananDepan() {
           </RadioGroup>
         </FormControl>
       </Box>
-      <Grid   container
-  direction="row"
-  justifyContent="flex-start"
-  alignItems="center"
-  spacing={2}>
-          <Grid item md={7}>
-        <TextField fullWidth placeholder="Keterangan" />
+      <Grid
+        container
+        direction="row"
+        justifyContent="flex-start"
+        alignItems="center"
+        spacing={2}
+      >
+        <Grid item md={7}>
+          <TextField fullWidth placeholder="Keterangan" />
         </Grid>
         <Grid item md={4}>
-        <Button variant="contained" onClick={handleClickOpen}>
+          <Button variant="contained" onClick={handleClickOpen}>
             <CameraAltIcon />
           </Button>
-          </Grid>
-          </Grid>
-        <Box flexDirection={`column`} mb={2}>
-          <BootstrapDialog
+        </Grid>
+      </Grid>
+      <Box flexDirection={`column`} mb={2}>
+        <BootstrapDialog
+          onClose={handleClose}
+          aria-labelledby="customized-dialog-title"
+          open={open}
+        >
+          <BootstrapDialogTitle
+            id="customized-dialog-title"
             onClose={handleClose}
-            aria-labelledby="customized-dialog-title"
-            open={open}
           >
-            <BootstrapDialogTitle
-              id="customized-dialog-title"
-              onClose={handleClose}
-            >
-              Kamera
-            </BootstrapDialogTitle>
-            <DialogContent dividers>
-              <Kamera />
-            </DialogContent>
-          </BootstrapDialog>
-        </Box>
+            Kamera
+          </BootstrapDialogTitle>
+          <DialogContent dividers>
+            <Kamera />
+          </DialogContent>
+        </BootstrapDialog>
+      </Box>
       <Box mt={4} display={`flex`} flexDirection={`column`}>
         <FormControl>
           <FormLabel id="demo-row-radio-buttons-group-label" mt={2}>
@@ -617,37 +639,39 @@ export default function SisiKananDepan() {
           </RadioGroup>
         </FormControl>
       </Box>
-      <Grid   container
-  direction="row"
-  justifyContent="flex-start"
-  alignItems="center"
-  spacing={2}>
-          <Grid item md={7}>
-        <TextField fullWidth placeholder="Keterangan" />
+      <Grid
+        container
+        direction="row"
+        justifyContent="flex-start"
+        alignItems="center"
+        spacing={2}
+      >
+        <Grid item md={7}>
+          <TextField fullWidth placeholder="Keterangan" />
         </Grid>
         <Grid item md={4}>
-        <Button variant="contained" onClick={handleClickOpen}>
+          <Button variant="contained" onClick={handleClickOpen}>
             <CameraAltIcon />
           </Button>
-          </Grid>
-          </Grid>
-        <Box flexDirection={`column`} mb={2}>
-          <BootstrapDialog
+        </Grid>
+      </Grid>
+      <Box flexDirection={`column`} mb={2}>
+        <BootstrapDialog
+          onClose={handleClose}
+          aria-labelledby="customized-dialog-title"
+          open={open}
+        >
+          <BootstrapDialogTitle
+            id="customized-dialog-title"
             onClose={handleClose}
-            aria-labelledby="customized-dialog-title"
-            open={open}
           >
-            <BootstrapDialogTitle
-              id="customized-dialog-title"
-              onClose={handleClose}
-            >
-              Kamera
-            </BootstrapDialogTitle>
-            <DialogContent dividers>
-              <Kamera />
-            </DialogContent>
-          </BootstrapDialog>
-        </Box>
+            Kamera
+          </BootstrapDialogTitle>
+          <DialogContent dividers>
+            <Kamera />
+          </DialogContent>
+        </BootstrapDialog>
+      </Box>
     </Box>
   );
 }
